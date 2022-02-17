@@ -13,7 +13,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/aladdinn" />
+        app:srcCompat="@drawable/aladdinn"
+        android:scaleType="fitXY"/>
 
     <ImageView
         android:id="@+id/imageView2"
@@ -22,9 +23,11 @@
         android:layout_marginTop="128dp"
         android:layout_marginEnd="278dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/aladdin" />
+        app:srcCompat="@drawable/aladdin"
+        android:scaleType="fitXY"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
